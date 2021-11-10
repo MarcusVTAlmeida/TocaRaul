@@ -2,9 +2,10 @@
   "expo": {
     "name": "TocaRaul",
     "slug": "TocaRaul",
-    "version": "1.0.0",
+    "version": "6.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Icon.png",  
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,10 +21,12 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 6,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "io.kodular.marcus1134.TocaRaul"
     },
     "web": {
       "favicon": "./assets/favicon.png"
